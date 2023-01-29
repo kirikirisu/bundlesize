@@ -1,0 +1,24 @@
+{
+  "name": "bundlesize",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "Kirisawa",
+  "license": "ISC",
+  "packageManager": "pnpm@7.23.0",
+  "devDependencies": {
+    "tsx": "^3.12.2",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.18",
+    "brotli-size": "^4.0.0",
+    "filesize": "^10.0.6"
+  }
+}
